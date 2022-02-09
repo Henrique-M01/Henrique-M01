@@ -1,7 +1,7 @@
-### Hi there! Eu sou Henrique Martins 👋
+### Hello! Eu sou Henrique Martins 👋
 
-- 🔭 Dev front-end a caminho de me tornar full-stack
-- 🌱 Estudando Node.js
+- 🔭 Dev front-end Jr;
+- 🌱 Estudando Node.js.
 
 <div align="center">
   <a href="https://github.com/Henrique-M01">
