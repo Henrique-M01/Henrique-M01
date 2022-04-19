@@ -1,7 +1,7 @@
 ### Hello! Eu sou Henrique Martins 👋
 
 - 🔭 Dev Fullstack Jr;
-- 🌱 Estudando TypeScript.
+- 🌱 Estudando Orientação Objeto.
 
 <div align="center">
   <a href="https://github.com/Henrique-M01">
