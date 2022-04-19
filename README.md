@@ -1,6 +1,6 @@
 ### Hello! Eu sou Henrique Martins 👋
 
-- 🔭 Dev (quase fullstack) Jr;
+- 🔭 Dev Fullstack Jr;
 - 🌱 Estudando TypeScript.
 
 <div align="center">
