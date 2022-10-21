@@ -3,6 +3,13 @@
 - 🔭 Dev Fullstack Jr;
 - 🌱 Estudando Cloud - AWS.
 
+Desenvolvedor Web em busca de uma oportunidade no mercado de TI.
+Sou extremamente dedicado, comunicativo e questionador. Sou movido por desafios e novos conhecimentos. Em meu tempo livre gosto de cozinhar, entusiasta dos e-sports e musica como um todo.
+Pretendo construir uma carreira de sucesso como desenvolvedor, sempre em continuo aprendizado uma graduação já entra no meu radar para os próximos anos.
+Acredito que somos protagonistas de nossas historias, sempre devemos buscar nosso melhor a cada dia!
+
+"Você é o único representante do seu sonho na face da terra." - Emicida.
+
 <div align="center">
   <a href="https://github.com/Henrique-M01">
   <img height="179em" max-width="45%" src="https://github-readme-stats.vercel.app/api?username=Henrique-M01&show_icons=true&theme=chartreuse-dark&include_all_commits=true&count_private=true"/>
