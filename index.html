@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Meu Portfólio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+      margin: 0;
+      background: linear-gradient(135deg, #cfe8fc, #f2f7fd);
+    }
+
+    .container {
+      border-radius: 12px;
+      padding: 30px;
+      background-color: #ffffff;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 500px;
+      text-align: center;
+    }
+
+    .menu {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 25px;
+    }
+
+    .menu button {
+      flex: 1;
+      min-width: 100px;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 8px;
+      background-color: #0077cc;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .menu button:hover {
+      background-color: #005fa3;
+    }
+
+    .conteudo {
+      border-top: 2px solid #e0e0e0;
+      padding-top: 15px;
+      text-align: left;
+    }
+
+    .conteudo h2 {
+      color: #0077cc;
+    }
+
+    .conteudo p, .conteudo li {
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .conteudo ul {
+      padding-left: 20px;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+
+    form button {
+      background-color: #28a745;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    form button:hover {
+      background-color: #1e7e34;
+    }
+
+    @media (max-width: 600px) {
+      .menu {
+        flex-direction: column;
+      }
+
+      .menu button {
+        width: 100%;
+      }
+
+      .container {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <nav class="menu">
+      <button onclick="mostrarSecao('sobre')">Sobre mim</button>
+      <button onclick="mostrarSecao('formacao')">Formação</button>
+      <button onclick="mostrarSecao('portfolio')">Portfólio</button>
+      <button onclick="mostrarSecao('contato')">Contato</button>
+    </nav>
+
+    <section id="conteudo" class="conteudo">
+      <p>Portfólio Henrique Martins</p>
+    </section>
+  </main>
+
+  <script>
+    function mostrarSecao(secao) {
+      let conteudo = document.getElementById('conteudo');
+
+      switch (secao) {
+        case 'sobre':
+          conteudo.innerHTML = `
+            <h2>Sobre mim</h2>
+            <p>Olá, meu nome é Henrique Martins. Gosto de tecnologia, música, cozinhar e aprender coisas novas.</p>
+            <p>Trabalho como programador a 3 anos.</p>
+            <p>Tenho 3 gatos e uma esposa maravilhosa.</p>
+          `;
+          break;
+        case 'formacao':
+          conteudo.innerHTML = `
+            <h2>Formação</h2>
+            <p>Ensino Médio Completo.</p>
+            <p>Cursando Análise e Desenvolvimento de Sistemas.</p>
+            <p>Curso de Programação Web Completo na Trybe.</p>
+            <p>Inglês Intermediário.</p>
+          `;
+          break;
+        case 'portfolio':
+          conteudo.innerHTML = `
+            <h2>Portfólio</h2>
+            <ul>
+              <li><a href="#" target="_blank">Projeto 1</a></li>
+              <li><a href="#" target="_blank">Projeto 2</a></li>
+            </ul>
+          `;
+          break;
+        case 'contato':
+          conteudo.innerHTML = `
+            <h2>Contato</h2>
+            <form>
+              <input type="text" placeholder="Nome" required><br><br>
+              <input type="email" placeholder="Email" required><br><br>
+              <textarea placeholder="Mensagem" rows="4" required></textarea><br><br>
+              <button type="submit">Enviar</button>
+            </form>
+          `;
+          break;
+        default:
+          conteudo.innerHTML = `<p>Portfólio Henrique Martins</p>`;
+      }
+    }
+
+  </script>
+</body>
+</html>
